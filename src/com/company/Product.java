@@ -53,4 +53,10 @@ public class Product {
       this.productCount=productCount;
     }
 
+    public String toString()
+    {
+        return "Product{"+ "id="+id+", productName="+productName+'\''
+                +", price="+price+", weight="+weight+", color="+color+'\''+", productCount"+productCount+'}';
+    }
+
 }

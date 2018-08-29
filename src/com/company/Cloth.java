@@ -20,4 +20,10 @@ public class Cloth extends Product {
     public String getMaterial() {
         return material;
     }
+    public String toString() {
+        return super.toString() + "Cloth{" +
+                "size='" + size + '\'' +
+                ", material='" + material + '\'' +
+                '}';
+    }
 }

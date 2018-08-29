@@ -24,4 +24,9 @@ public class User {
     {
         return password;
     }
+
+    public String toString()
+    {
+        return "User{"+" id= "+id+ ", login= "+ login+'\''+ ", password= "+ password +'\''+ '}';
+    }
 }

@@ -19,4 +19,10 @@ public class Boots extends Product{
     {
         return isNaturalSkin;
     }
+    public String toString() {
+        return super.toString() + "Boots{" +
+                "size='" + size + '\'' +
+                ", isNaturalSkin=" + isNaturalSkin +
+                '}';
+    }
 }
